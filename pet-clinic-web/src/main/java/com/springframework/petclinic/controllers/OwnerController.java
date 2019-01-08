@@ -10,6 +10,8 @@ public class OwnerController {
     @RequestMapping({"","/","/index", "/index.html"})
     public String ListOwners(){
 
-        return"owners/index";
+        return"" +
+                "" +
+                "/index";
     }
 }
